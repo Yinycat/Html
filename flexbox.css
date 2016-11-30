@@ -1,0 +1,63 @@
+body,
+div {
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    //flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.child1,
+.child2,
+.child3,
+.child4 {
+    width: 150px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.child1,
+.child2,
+.child3 {
+    border: 1px solid #f00;
+}
+.child1 {
+    height: 120px;
+}
+.child2 {
+    height: 100px;
+}
+.child3 {
+    height: 40px;
+}
+.child4 {
+    height: 200px;
+    border: 1px solid #0f0;
+}
+@media screen and (max-width: 640px) {
+    .parent{
+    align-items: flex-start;
+    
+}
+    .child4 {
+        order: -1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
