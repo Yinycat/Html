@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.radioType{
+	margin: 30px auto;
+	width: 400px;
+	height: 50px;
+	border: 1px solid #eee;
+	font-size: 14px;
+}
+.radioType dl{
+	line-height: 50px;
+}
+.radioType dt{
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+.radioType dd{
+	float: left;
+}
+.radioType dd a{
+	margin: 0 8px 0 15px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+.radioType dd a:hover{
+	color: #c60;
+}
+.radioType dd a b{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	background:url("../images/radiobutton.gif") -13px -18px no-repeat;
+}
+.radioType dd a:hover b{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	background:url("../images/radiobutton.gif") -13px -118px no-repeat;
+}
+.radioType dl dd.selected b,.radioType dl dd.selected a:hover b{background-position:-15px -218px;}
+
+
+
+
+
+
+
+
+
+
+
+
